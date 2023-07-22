@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page pertama saya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="Resume">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Nazirul Azdie">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <div>
-        <a href="./home.html">Home</a>
-        <a href="./professionalexperiences.html">Professional Experiences</a>
-        <a href="./skills.html">Skills</a>
-        <a href="./education.html">Education</a>
-        <a href="./projects.html">Projects</a>
-    </div>
-    <h1>Tajuk pertama</h1>
-    <h2>Tajuk kedua</h2>
-    <div>
-        <h1>Tajuk H1</h1>
-        <h2>Tajuk H2</h2>
-        <hr />
-        <h3>Tajuk H3</h3>
-        <h4>Tajuk H4</h4>
-        <h5>Tajuk H5</h5>
-        <h6>Tajuk H6</h6>
-        <p>Hello <span style="color:red ">HTML!</span></p>
-        <a href="https://www.google.co.jp/">google</a>
-        <button>Butang</button>
-    </div>
-    <hr />
-    <!-- command + /? -->
-    <div>
-        <a href="./index.html">Profile</a>
-        <a href="./home.html">Home</a>
-    </div>
-    <div>
-        <ol>
-            <li>Buka <strong>terminal</strong></li>
-            <li>touch index.html</li>
-        </ol>
-        <img src="https://th.bing.com/th/id/OIP.PQqFbGpN_EToMA3CHp2XVQHaEK?pid=ImgDet&rs=1" alt="html">
-    </div>
+    <header>
+    <br>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./pages/professionalexperiences.html">Professional Experiences</a></li>
+            <li><a href="./pages/skills.html">Skills</a></li>
+            <li><a href="./pages/education.html">Education</a></li>
+            <li><a href="./pages/projects.html">Projects</a></li>
+        </ul>  
+    </header>
+     
+    <main>
+        <section>
+            <!-- picture -->
+            <img 
+            id="main-pic"
+            class="pictures"
+            src="./source/DSC_5283 edited.jpg"
+            alt="a man with white shirt posing in front of a mennequin" >
+            </section>
+
+        <hr>
+        <br>
+        <section>
+            <!--  nama  -->
+            <h1 class="title">Nazirul Azdie</h1>
+            <!-- description -->
+            <br>
+            <p>Hello and Welcome to my page.</p>
+            <p>The page is still under construction.</p>
+            <p>Feel free to visit anytime. </p>
+        </section>
+        <br>
+
+        <section>
+            <!-- contact -->
+            <p> Email: nazirulazdie@gmail.com</p>
+            <p> Twitter : @nazirulazdie</p>
+        </section>
+    </main>
+
+    <footer>
+        <small>
+            Copyright © 2023 Nazirul Azdie. All Rights Reserved.
+        </small>
+    </footer>
 
 </body>
 </html>
